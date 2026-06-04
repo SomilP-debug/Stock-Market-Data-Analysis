@@ -10,9 +10,9 @@ from simulations.monte_carlo import run_gbm_simulation
 from simulations.risk_metrics import calculate_risk_metrics
 from simulations.backtester import run_sma_crossover_strategy
 
-# ==========================================
+
 # UI SETUP & SIDEBAR CONTROLS
-# ==========================================
+
 st.set_page_config(page_title="Quant Risk Engine", layout="wide")
 st.title("📈 Algorithmic Risk & Pricing Engine")
 
@@ -29,9 +29,9 @@ strike_offset = st.sidebar.slider("Strike Price Offset (%)", -20, 20, 10) / 100
 risk_free_rate = st.sidebar.number_input("Risk-Free Rate (%)", 0.0, 10.0, 4.0) / 100
 expected_market_return = st.sidebar.number_input("Expected Market Return (%)", 0.0, 20.0, 10.0) / 100
 
-# ==========================================
+
 # ENGINE EXECUTION
-# ==========================================
+
 try:
     with st.spinner(f"Running Quantitative Engine for {ticker}..."):
         
@@ -104,9 +104,9 @@ try:
             st.metric("American Call", f"${bin_call_am:.2f}")
             
             
-# ==========================================
+
         # 5. ALGORITHMIC BACKTESTING
-        # ==========================================
+      
         st.write("---")
         st.write("### Algorithmic Backtesting: SMA Crossover Strategy")
         
