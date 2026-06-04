@@ -56,7 +56,7 @@ This application utilizes a clean, modular architecture separating data fetching
 
 1. **Clone the repository:**
 
-    git clone [https://github.com/YOUR_USERNAME/Stock-Market-Data-Analysis.git](https://github.com/YOUR_USERNAME/Stock-Market-Data-Analysis.git)
+    git clone [https://github.com/SomilP-debug/Stock-Market-Data-Analysis.git](https://github.com/SomilP-debug/Stock-Market-Data-Analysis.git)
     cd Stock-Market-Data-Analysis
 
 2. **Create and activate a virtual environment:**
